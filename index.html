@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1>Currency Converter</h1>
+        <div class="amount">
+            <p>Enter amount:</p>
+            <input type="number" name="amount">
+        </div>
+        <div class="currency">
+            <div class="from">
+                <p>From</p>
+                <div class="select">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <select name="countries" id="countries" class="select_from">
+                        <option value="USD">US</option>
+                    </select>
+                </div>
+            </div>
+            <div class="arrow">
+                <img src="exchange-svgrepo-com.svg" alt="arrow">
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="select">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                    <select name="countries" id="countries" class="select_to">
+                        <option value="INR">IN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+        </div>
+        <div class="btn">
+            <button>Get Exchange Rate</button>
+        </div>
+    </section>
+    
+
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
