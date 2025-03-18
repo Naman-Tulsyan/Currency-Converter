@@ -18,7 +18,7 @@ The Currency Converter App is a simple and efficient web application that allows
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pynaman/Currency-Converter.git
+   https://github.com/Naman-Tulsyan/Currency-Converter.git
 2. Navigate to Project directory
     ```bash
     cd currency-converter
